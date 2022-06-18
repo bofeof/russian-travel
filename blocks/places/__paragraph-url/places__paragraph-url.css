@@ -1,0 +1,8 @@
+.places__paragraph-url {
+  align-self: end;
+  grid-area: places__paragraph-url;
+}
+
+.places__paragraph-url:hover {
+  cursor: pointer;
+}

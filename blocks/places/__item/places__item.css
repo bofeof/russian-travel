@@ -1,0 +1,12 @@
+.places__item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 460px));
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "places__title places__paragraph-url"
+    "places__image places__description";
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 80px;
+}

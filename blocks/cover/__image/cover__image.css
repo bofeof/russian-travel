@@ -1,0 +1,17 @@
+.cover__image {
+  max-width: 100%;
+  min-height: 100%;
+
+  margin: 0 auto;
+  object-fit: contain;
+  background-position: center;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  z-index: -1;
+}
+
+.cover__image:hover {
+  opacity: 0.8;
+}

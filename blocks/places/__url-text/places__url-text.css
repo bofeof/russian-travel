@@ -1,0 +1,10 @@
+.places__url-text {
+  width: 100%;
+  min-width: 288px;
+  min-height: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
