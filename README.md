@@ -7,4 +7,4 @@
 * CSS
 
 ## Сайт
-[Link](#)
+[Link](https://bofeof.github.io/russian-travel/index.html)
