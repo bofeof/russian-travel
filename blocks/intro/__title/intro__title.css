@@ -4,5 +4,45 @@
   font-size: 54px;
   line-height: 107%; /*58px*/
   color: #ffffff;
-  margin: 92px 0 40px;
+  padding: 0 0 40px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__title {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__title {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .intro__title {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .intro__title {
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 109%;
+    padding: 0 0 40px;
+  }
 }

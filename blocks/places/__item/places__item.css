@@ -10,3 +10,38 @@
   gap: 48px;
   margin-bottom: 80px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .places__item {
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .places__item {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .places__item {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__item {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+}

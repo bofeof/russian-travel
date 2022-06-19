@@ -3,6 +3,9 @@
   grid-area: places__paragraph-url;
 }
 
-.places__paragraph-url:hover {
-  cursor: pointer;
+
+@media screen and (max-width: 700px) {
+  .places__paragraph-url {
+    align-self: start;
+}
 }

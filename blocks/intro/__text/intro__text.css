@@ -4,5 +4,31 @@
   font-size: 16px;
   line-height: 163%; /*26px */
   color: #ffffff;
-  margin: 40px 0 44px;
+  padding: 0 0 44px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    padding: 0 0 33px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding: 0 0 33px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .intro__title {
+    padding: 0 0 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    padding: 0 0 33px;
+  }
 }
