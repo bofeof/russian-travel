@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 984px) {
   .footer {
     margin: 0 24px;
@@ -26,6 +25,5 @@
 @media screen and (max-width: 578px) {
   .footer {
     margin-right: 16px;
-
   }
 }

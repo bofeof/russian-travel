@@ -9,8 +9,7 @@
   color: #ffffff;
 }
 
-
 .places__url-link:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
 }
