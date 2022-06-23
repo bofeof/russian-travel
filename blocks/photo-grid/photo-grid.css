@@ -1,102 +1,26 @@
 .photo-grid {
-  max-width: 1184px;
   display: grid;
-  justify-content: center;
-  align-content: center;
-  margin: 0 auto 92px;
-  grid-template-columns: repeat(auto-fill, 284px);
-  grid-auto-flow: row;
+  margin: 0 48px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
 }
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 1140px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 14px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 984px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 300px);
+    margin: 0 24px;
+    gap: 16px;
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 600px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 400px);
-  }
-}
-
-/* @media screen and (max-width: 890px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 400px);
-  }
-} */
-
-@media screen and (max-width: 815px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 350px);
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 340px);
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 330px);
-    margin: 0 auto 88px;
-  }
-}
-
-@media screen and (max-width: 717px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 650px);
-    margin: 0 auto 84px;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 550px);
-    margin: 0 auto 84px;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 470px);
-    margin: 0 auto 80px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 400px);
-    margin: 0 auto 80px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 350px);
-    margin: 0 auto 80px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 300px);
-    margin: 0 auto 80px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 288px);
-    margin: 0 auto 64px;
+    margin: 0 16px;
+    gap: 12px;
   }
 }

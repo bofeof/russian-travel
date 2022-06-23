@@ -7,3 +7,19 @@
   line-height: 163%; /* or 29px */
   color: #ffffff;
 }
+
+@media screen and (max-width: 730px) {
+  .places__paragraph {
+    max-width: 320px;
+    font-size: 17px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .places__paragraph {
+    max-width: 320px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}

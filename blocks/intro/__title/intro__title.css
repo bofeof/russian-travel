@@ -1,48 +1,18 @@
 .intro__title {
-  width: 100%;
+  max-width: 100%;
   font-weight: 900;
   font-size: 54px;
-  line-height: 107%; /*58px*/
+  line-height: 107%;
   color: #ffffff;
   padding: 0 0 40px;
   margin: 0;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 578px) {
   .intro__title {
-    padding: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .intro__title {
-    padding: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .intro__title {
-    padding: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 472px) {
-  .intro__title {
-    padding: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .intro__title {
-    padding: 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 109%;
-    padding: 0 0 40px;
   }
 }
