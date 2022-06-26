@@ -1,11 +1,10 @@
 .header__lang-link {
-  max-width: 30px;
-  max-height: 28px;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.2; /* 28px; */
   text-decoration: none;
   color: #ffffff;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .header__lang-link:first-child {

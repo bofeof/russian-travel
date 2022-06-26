@@ -1,4 +1,11 @@
 .places__website {
   color: #ffffff;
   margin: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.places__website:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
