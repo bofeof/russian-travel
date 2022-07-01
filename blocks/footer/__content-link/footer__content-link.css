@@ -10,3 +10,10 @@
 .footer__content-link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__content-link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}

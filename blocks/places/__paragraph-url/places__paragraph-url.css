@@ -8,3 +8,10 @@
     align-self: start;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .places__paragraph-url{
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}

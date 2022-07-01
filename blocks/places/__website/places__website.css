@@ -1,4 +1,7 @@
 .places__website {
+  font-size: 18px;
+  line-height: 122%;
+
   color: #ffffff;
   margin: 0;
   cursor: pointer;

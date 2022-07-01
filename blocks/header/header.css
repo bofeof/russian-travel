@@ -3,7 +3,7 @@
   min-height: 42px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 0 auto;
   padding: 0 48px;
   box-sizing: border-box;
