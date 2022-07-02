@@ -4,6 +4,7 @@
   max-width: 460px;
   min-width: 320px;
   object-fit: cover;
+  align-self: left;
   grid-area: places__image;
 }
 
