@@ -1,7 +1,6 @@
 .places__title {
   width: 100%;
   max-width: 460px;
-  min-height: 35px;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%; /*76px*/
